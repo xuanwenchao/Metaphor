@@ -19,7 +19,7 @@ allprojects {
 
 ```js
 dependencies {
-    implementation 'com.github.xuanwenchao:Metaphor:0.1'
+    implementation 'com.github.xuanwenchao:Metaphor:1.1'
 }
 ```
 
