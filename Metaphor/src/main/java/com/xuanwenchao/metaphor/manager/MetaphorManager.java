@@ -274,7 +274,7 @@ public abstract class MetaphorManager implements IMetaphorManager {
             for (Fragment f : fragmentManager.getFragments()) {
                 int fc = System.identityHashCode(f);
                 Integer cv = (Integer) m_fragmentToContainerView.get(fc);
-                if (cv.intValue() == cvIDexist.intValue() && f != fragment) {
+                if (cv != null && cv.intValue() == cvIDexist.intValue() && f != fragment) {
                     ft.hide(f);
                 }
             }
